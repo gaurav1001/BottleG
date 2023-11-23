@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeScreen">
+
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="com.example.bottleg.HomeScreen"
+        android:label="PaaniWala"
+        tools:layout="@layout/fragment_home_screen"
+        >
+        <action
+            android:id="@+id/action_homeScreen_to_loginActivity"
+            app:destination="@id/loginActivity"
+            app:popUpTo="@id/homeScreen" />
+        <action
+            android:id="@+id/action_homeScreen_to_subscription"
+            app:destination="@id/subscription" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.bottleg.LoginActivity"
+        android:label=""
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/subscription"
+        android:name="com.example.bottleg.Subscription"
+        android:label="fragment_subscription"
+        tools:layout="@layout/fragment_subscription" />
+</navigation>

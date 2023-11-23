@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Subscription">
+
+<RadioGroup
+    android:id="@+id/radio"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/plan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/planA"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        />
+
+    <RadioButton
+        android:id="@+id/plan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/planB"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        />
+
+    <RadioButton
+        android:id="@+id/plan3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/planC"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        />
+
+</RadioGroup>
+
+    <Button
+        android:id="@+id/subs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe"
+        android:layout_below="@id/radio"
+        />
+
+
+
+</RelativeLayout>

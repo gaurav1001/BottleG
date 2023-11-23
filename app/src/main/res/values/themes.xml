@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+
+    </style>
+
+    <!-- Splash screen theme (if applicable) -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize splash screen theme here -->
+
+        <!-- Add any other specific attributes for your splash screen -->
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Paaniwala</string>
+    <string name="validity">upto %1$s</string>
+    <string name="subscribeBtn">Subscribe</string>
+    <string name="status">Status</string>
+    <string name="statusInfo">Expired</string>
+    <string name="planA">
+         get every day
+    </string>
+    <string name="planB">
+        get every second day
+    </string>
+    <string name="planC">
+        get every third day
+    </string>
+</resources>

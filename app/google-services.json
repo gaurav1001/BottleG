@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "906531238550",
+    "project_id": "bottle-1decb",
+    "storage_bucket": "bottle-1decb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906531238550:android:3d2befa0da677f218cc8b7",
+        "android_client_info": {
+          "package_name": "com.example.bottleg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906531238550-5copbmqs7f3ptcsgknd5en3r0lcs7icj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bottleg",
+            "certificate_hash": "a19645bc5f988afa4ed8cb2cfe5fad11d0ea5a92"
+          }
+        },
+        {
+          "client_id": "906531238550-juq33igefiva8oshsbcrgqqs974qj2mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUACg5JOt5n5ekQkuB9IkXVdDg-_7C67o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906531238550-juq33igefiva8oshsbcrgqqs974qj2mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

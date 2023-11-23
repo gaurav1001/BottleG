@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:text="Booking"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_toRightOf="@id/title"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="19dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" />
+</RelativeLayout>
+
